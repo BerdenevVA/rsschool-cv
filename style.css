@@ -1,0 +1,162 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #dadada;
+  position: relative;
+}
+
+#main-page {
+  background: transparent !important;
+  width: 1024px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0% 10%;
+  display: flex;
+}
+
+
+
+div {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1m;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  
+}
+
+pre  {
+  font-size: 1.15em;
+	padding: 10px;
+	color: #19232d;
+}
+
+
+
+.left-row {
+  width: 35%;
+  color: #d0d7df;
+  background-color:#19232d;
+  box-shadow: 23px 23px 15px 1px rgba(0,0,0,0.5);
+}
+
+.left-top-row {
+  width: auto;
+  max-width: none;
+  min-width: 0;
+  margin: 10% 5%;
+}
+
+.photo {
+  width: 10em;
+  height: 10em;
+  border-radius: 100%; /* Радиус скругления */
+  padding: 0.5em;
+  border: 0.2em solid #d0d7df; /* Параметры рамки */
+  box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+
+
+.left-bot-row {
+  padding: 0% 15%;
+  width: auto;
+  max-width: none;
+  min-width: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.hor-line {
+  width: 50%; 
+  size: 1em;
+  color: #d0d7df;
+  margin: 20%;
+}
+
+.margin-for-line {
+  margin: 20%;
+}
+
+.margin {
+  margin: 10%;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 14%;
+} 
+
+
+
+.right-row {
+  width: 65%;
+  padding: 0% 10%;
+  background-color: #e6e6e8;
+  color: #19232d;
+  box-shadow: 23px 23px 15px 1px rgba(0,0,0,0.5);
+}
+
+.right-top-row {
+  text-align: center;
+}
+
+fieldset{
+  font-size:1em;
+  border: 2px solid #19232d;
+}
+
+fieldset legend{
+  font-size: 125%;
+  padding: 1em 1em;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+
+
+.container-1 a {
+    color: #d0d7df;
+    text-decoration: none;
+    transition: color .2s ease;    
+}
+.container-1 a:hover {
+    animation: blur 1s ease-out;
+    color: #d0d7df;
+}
+@keyframes blur {
+    from {
+        text-shadow:0px 0px 10px #BFE2FF,
+        0px 0px 10px #BFE2FF, 
+        0px 0px 25px #BFE2FF,
+        0px 0px 25px #BFE2FF,
+        0px 0px 25px #BFE2FF,
+        0px 0px 25px #337AB7,
+        0px 0px 50px #337AB7,
+        0px 0px 50px #337AB7;
+    }
+}
