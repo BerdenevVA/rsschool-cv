@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://BerdenevVA.github.io/rsschool-cv/cv
+https://berdenevva.github.io/rsschool-cv/
